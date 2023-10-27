@@ -1,0 +1,40 @@
+{
+  "name": "secured-todo-list-app",
+  "version": "1.0.0",
+  "main": "src/App.tsx",
+  "scripts": {
+    "start": "expo start",
+    "test": "jest",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "expo": "~49.0.5",
+    "expo-local-authentication": "~13.4.1",
+    "expo-secure-store": "~12.3.1",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.6",
+    "react-native-get-random-values": "^1.9.0",
+    "react-native-web": "^0.19.9",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@testing-library/jest-native": "^5.4.2",
+    "@testing-library/react-native": "^12.1.3",
+    "@types/jest": "^29.5.3",
+    "@types/react": "~18.2.14",
+    "@types/react-native": "^0.72.2",
+    "@types/uuid": "^9.0.2",
+    "jest-expo": "^49.0.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
